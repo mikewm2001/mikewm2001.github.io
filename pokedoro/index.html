@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title id="pageTitle">Pokedoro</title>
+    </head>
+    
+    <body id="container">
+        <div id="body-wrapper0">
+            <div id="imageWrapper">
+                <img id="image" src="8bitAltaria.webp">
+            </div>
+            <div id="changeTime">
+                <button id="addTime" onclick="addTime()">+</button>
+                <button id="minusTime" onclick="minusTime()">-</button>
+            </div>
+            <div id="body-wrapper1">
+                <div id="workTimer">25:00</div>
+                <div id="buttons">
+                    <button id="timerButtonWork" onclick="startTimerWork()">Start Timer</button>
+                    <button id="resetButtonWork" onclick="resetTimerWork()">Reset Timer</button>
+                </div>
+                <div id="taskInput">
+                    <label for="task"></label>
+                    <input type="text" id="task" name="task" placeholder="What are you doing on Pokedoro?">
+                </div>
+                <div id="pokemonSelectorRow">
+                    <label for="pokemon">Choose a Pokemon:</label>
+                    <select id="pokemon" name="pokemon" onchange="displayPokemon()">
+                        <option value="altaria">Altaria</option>
+                        <option value="dragonair">Dragonair</option>
+                        <option value="lapras">Lapras</option>
+                        <option value="rowlet">Rowlet</option>
+                        <option value="swablu">Swablu</option>
+                    </select>
+                </div>
+            </div>
+            
+            <script src="timer.js"></script>
+        </div>
+    </body>
+</html>

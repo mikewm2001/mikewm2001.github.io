@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background-color: #A0C4E2;
+}
+
+#body-wrapper0 {
+  width: 25%;
+  min-width: 450px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#imageWrapper {
+  display: block;
+  width: 100%; 
+  text-align: center;
+}
+
+#image {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+#body-wrapper1 {
+  padding-top: 20px;
+  background-color: #C6DBF0;
+  border: 1px solid black;
+  font-family: 'Lucida Console', 'monospace';
+}
+
+#workTimer {
+  font-family: 'Lucida Console', 'monospace';
+  text-align: center;
+  font-size: 140px;
+}
+
+#timerButtonWork, #resetButtonWork {
+  font-family: 'Lucida Console', 'monospace';
+  height: 3vh;
+  min-height: 24px;
+  width: 100%;
+  font-size: 18px;
+}
+
+#task {
+  font-family: 'Lucida Console', 'monospace';
+  height: 3vh;
+  min-height: 24px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+#pokemonSelectorRow, #pokemon {
+  font-family: 'Lucida Console', 'monospace';
+  height: 3vh;
+  min-height: 24px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#changeTime {
+  display: block;
+  text-align: right;
+}
+
+#addTime, #minusTime {
+  min-width: 15px;
+  min-height: 15px;
+}
